@@ -141,12 +141,18 @@ input[type=radio]{
 .container input:checked ~ .checkmark .radiomark{
   background-color: #C48019;
 }
+.container input:checked ~  .radiomark{
+  background-color: #C48019;
+}
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
-.container input:checked ~ .checkmark .radiomark:after {
+.container input:checked ~ .checkmark :after {
+  display: block;
+}
+.container input:checked ~  .radiomark :after {
   display: block;
 }
 .container .checkmark:after {
