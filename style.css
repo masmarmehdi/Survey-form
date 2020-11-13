@@ -138,7 +138,7 @@ input[type=radio]{
   	width: 25px;
   	background-color:white;
   }
-.container input:checked ~ .checkmark .radiomark{
+.container input:checked ~ .checkmark {
   background-color: #C48019;
 }
 .container input:checked ~  .radiomark{
