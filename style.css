@@ -1,0 +1,234 @@
+/* image style */
+.image{
+    background-image: url("https://wallpaperset.com/w/full/a/7/3/226919.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100%;
+    background-color:rgba(34, 49, 63, 1);
+}
+/* header style */
+.header {
+        padding: 0 0.625rem;
+        margin-bottom: 1.875rem;
+        margin-top:50px;
+        font-size:25px;
+        text-align: center;
+}
+/* title style */
+#title{
+    background-color:black;
+    color:white;
+    font-family:monospace;
+    text-align: center;
+    padding-bottom:10px;
+}
+/* description style */
+#description{
+		background-color:black;
+    color:white;
+    text-align: center;
+    font-family:monospace;
+		padding:10px 0 10px 0;
+
+}
+/* survey-form style */
+#survey-form{
+			 background-color:black;
+    	 color:white;
+    	 padding:10px;
+       margin-left:50px;
+       margin-right:50px;
+       margin-bottom:80px;
+       border-radius: 0.25rem;
+		   max-width:100%;
+		   height:auto;
+}
+/* name style */
+#name{
+	text-transform:Capitalize;
+	font-size:20px;
+}
+#name-label{
+			font-size:40px;
+			margin-top:50px;
+			margin-left:10px;
+}
+input[type=text]{
+   
+    background-color:white;
+	 	min-height: 40px;
+  	width: 100%;
+  	resize: vertical;
+      
+}
+/* email style */
+#email{
+	font-size:20px;
+}
+#email-label{
+			font-size:40px;
+			margin-top:50px;
+			margin-left:10px;
+}
+input[type=email]{
+    background-color:white;
+	 	min-height: 40px;
+  	width: 100%;
+  	resize: vertical;
+}
+/* number style */
+#number{
+			font-size:20px;
+}
+#number-label{
+			font-size:40px;
+			margin-top:50px;
+			margin-left:10px;
+}
+input[type=number]{
+		background-color:white;
+	 	min-height: 40px;
+  	width: 100%;
+  	resize: vertical;
+}
+/* h1 style */
+h1{
+    font-weight: 400px;
+    line-height:1.2;
+    margin-top:0;
+
+}
+/* section style */
+.section{
+	margin-top:30px;
+	margin-bottom:10px;
+	font-size:40px;
+}
+input[type=checkbox]{
+    width:1%;
+}
+input[type=radio]{
+	  margin-top:10px;
+}
+/* container for checkboxes and radio buttons*/
+.container {
+    display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  
+  }
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* styling checkboxes and radio buttons */
+  .checkmark {
+    position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 25px;
+  	width: 25px;
+  	background-color:white;
+  }
+.container input:checked ~ .checkmark .radiomark{
+  background-color: #C48019;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark .radiomark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.radiomark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.radiomark :after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container .radiomark :after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.radiomark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container .radiomark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/* styling text area */
+#text-area{
+	width:100%;
+	font-size:20px;
+	padding-bottom:50px;
+	
+}
+/* styling dropdown select */
+#dropdown{
+	font-size:20px;
+	margin-bottom:10px;
+	padding:8px;
+}
+select{
+	background-color:white;
+	width:100%;
+	height:auto;
+	font-size:20px;
+}
+/* styling submit button */
+#submit{
+		padding:0 50px 0 50px;
+		width:100%;
+		min-height:30px;
+		font-family:monospace;
+		font-size:25px;
+		color:black;
+		background-color:#C48019; 
+		padding:5px;
+}
+#submit:hover{
+	background-color:#654321;
+}

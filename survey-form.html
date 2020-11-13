@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body class="image">
+    <!-- Title of the page -->
+    <header class="header">
+    <h1 id="title">Survey Form for Maroon 5's Concert</h1>
+    <p id="description">Thank you for attending this concert . We'll be thankful if you could fill this form to notify you for the next events of Maroon 5,and don't forget to give us your feedback before submitting the form.</p>
+    </header>
+            <!-- Form of the page -->
+    <form id="survey-form">
+        <div>
+                        <!-- Name field -->
+                                <section class="section"><label for="name-label" id="name-label" >Full Name:<input type="text" required  id="name" placeholder="please enter your full name"></label></section>
+                        <!-- Email field -->
+            <section class="section"><label for="email" id="email-label">Email:<input type="email" id="email" placeholder="Enter your Email: exp@gmail.com" required></label></section>
+                        <!-- Number field -->
+                                <section class="section"><label for="number" id="number-label">How many times have you attended Maroon 5's concerts ?<input type="number" required id="number" placeholder="Enter number between 0 and 132 ( 132 is the number of concerts that Maroon 5 did all the time )" min="0" max="132"></label>
+                                    <!-- Gender field -->
+                                    <section class="Section">Choose your gender:
+                                        <select  id="dropdown" required>
+    <option>Choose your gender:</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="preferNotToSay">Prefer not to say</option>
+    </select>
+                                    </section>
+                                    <!-- checkbox buttons field -->
+                                    <section class="section"><label for="text" id="checkbox-label">Which song have liked the most ?
+                                <label class="container">
+                                    <input type="checkbox" value="Lucky Strike">Lucky Strike
+                                    <span class="checkmark"></span>
+                                    </label>
+                                <label class="container">
+                                    <input type="checkbox" value="Sugar">Sugar
+                                    <span class="checkmark"></span>
+                                    </label>
+            <label class="container">
+                                <input type="checkbox" value="Maps">Maps
+                                <span class="checkmark"></span>
+                                </label>
+            <label class="container">
+                                <input type="checkbox" value="Payphone">Payphone
+                                <span class="checkmark"></span>									
+                                </label>
+            <label class="container">
+                                <input type="checkbox" value="Girls like you">Girls like you
+                                <span class="checkmark"></span>
+                                </label>
+                                        <label class="container">
+                                            <input type="checkbox" value="None of them">None of them
+                                            <span class="checkmark"></span>
+                                            </label>
+                                            </section>
+                                        
+                                    <!-- radio buttons field -->
+                                        
+                                <section class="section">How was the concert ?
+            <section>
+                                <label for="Excellent" class="container">
+                                    <input type="radio" id="Excellent" name="Excellent-Good" value="Excellent">Excellent
+                                    <span class="radiomark"></span></label>
+                                <label for="Good" class="container">
+                                    <input type="radio" id="Good" name="Excellent-Good" value="Good">Good
+                                    <span class="radiomark"></span>
+                                    </label>
+            <label for="Normal" class="container">
+                                <input type="radio" id="Normal" name="Normal-Boring-Bad" value="Normal">Normal
+                                <span class="radiomark"></span></label>
+            <label for="Boring" class="container">
+                                <input type="radio" id="Boring" name="Normal-Boring-Bad" value="Boring">Boring
+                                <span class="radiomark"></span></label>
+            <label for="Bad"class="container">
+                                <input type="radio" id="Bad" name="Normal-Boring-Bad" value="Bad">Bad
+                                <span class="radiomark"></span></label>
+                                </section>
+                                    <!-- dropdown field -->
+                                    <section >Enter your age interval:
+                                        <select id="dropdown" required>
+    <option disabled selected value>Select current role</option>
+    <option value="14-17">14-17</option>
+    <option value="18-27">18-27</option>
+    <option value="28-44">28-44</option>
+    <option value="45-60+">45-60+</option>
+    </select>
+                                    </section>
+                                    <!-- textarea field -->
+                                    <section class="section">Give us your feedback here:
+                                        <textarea id="text-area" placeholder="Write your comment here..."></textarea></section>
+                                    <!-- submit button -->
+                                        <button id="submit">submit</button>
+                                    </div>
+            </form>
+    </body>
+</html>
